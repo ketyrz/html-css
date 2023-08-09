@@ -1,0 +1,85 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Grouping Tags</title>
+    <style>
+        body {
+            font-family: Arial, Helvetica, sans-serif;
+            background-color: #417380;
+            color: white;
+        }
+        header, main {
+            background-color: #a45913;
+            padding: 10px;
+            margin: 10px;
+            border-radius: 5px;
+        }
+        nav {
+            background-color: #7CBCCC;
+            padding: 1px;
+            box-shadow: 1px 1px 1px greenyellow;
+        }
+        nav > a {
+            color:#a45913;
+            text-decoration: none;
+            margin: 1px 50px;
+        }
+        nav > a:hover {
+            text-decoration: underline;
+        }
+        div {
+            background-color: #CCA37C;
+            padding: 10px;
+        }
+        article {
+            background-color: #7CBCCC;
+            padding: 10px;
+        }
+        article > aside {
+            background-color: #a45913;
+        }
+        footer {
+            background-color: #7CBCCC;
+            color: white;
+            text-align: center;
+            padding: 1px;
+            margin: 10px;
+        }
+    </style>
+</head>
+<body>
+    <header>
+        <div>
+            <h1>Meu site</h1>
+            <nav>
+                <a href="#">link</a>
+                <a href="#">link</a>
+                <a href="#">link</a>
+                <a href="#">link</a>
+            </nav>
+        </div>
+    </header>
+    <main>
+        <section id="assuntos">
+
+        </section>
+        <section id="noticias">
+            <article>
+                <h2>Notícia específica</h2>
+                <p>Lorem ipsum dolor, sit amet consectetur adipisicing elit. Iure eligendi quasi maxime omnis corrupti sequi, nam natus rerum, tempore expedita provident cumque asperiores tenetur distinctio a animi modi aspernatur. Voluptatibus?</p>
+                <aside>
+                    <p>Artigo escrito por Dr. Especific</p>
+                </aside>
+            </article>
+            <article>
+
+            </article>
+        </section>
+    </main>
+    <footer>
+        <p>Desenvolvido pela Ketlyn Rayzel</p>
+    </footer>
+</body>
+</html>
